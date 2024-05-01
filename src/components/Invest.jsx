@@ -5,12 +5,12 @@ const Invest = () => {
   return (
     <div className="bg-white">
       <div className="container max-w-[1164px] mx-auto px-3">
-        <h2 className="text-black font-Inter font-bold text-2xl text-center">
+        <h2 className="text-black font-Inter font-bold lg:text-2xl md:text-xl text-lg text-center">
           Why Invest in Nvidia Stock
         </h2>
-        <div className="flex justify-center gap-6">
-          <div className="col-span-4 max-w-[364px] w-full rounded-[12px] bg-sky-blue mt-[60px] border-[1px] border-blue border-opacity-[26%] min-h-[356px] flex flex-col justify-between pt-6 ps-4 pe-[21px] pb-[25px]">
-            <p className="font-Inter font-normal text-lihgt-lback text-md italic leading-[150%]">
+        <div className="flex flex-wrap lg:grid lg:grid-cols-3 gap-6 justify-center items-center">
+          <div className=" max-w-[364px] w-full rounded-[12px] bg-sky-blue md:mt-[60px] mt-16 border-[1px] border-blue border-opacity-[26%] min-h-[356px] flex flex-col justify-between pt-6 ps-4 pe-[21px] pb-[25px]">
+            <p className="font-Inter font-normal text-lihgt-lback sm:text-md text-xmd italic leading-[150%]">
               <span className="font-bold">Nvidia stock</span> shows exceptional
               technical strength and boasts a best-possible score of 99 on both
               its Composite Rating and EPS Rating. Its Relative Strength
@@ -22,8 +22,8 @@ const Invest = () => {
               src="/assets/image/png/business.png"
             />
           </div>
-          <div className="col-span-4 max-w-[364px] w-full rounded-[12px] bg-sky-blue mt-[60px] border-[1px] border-blue border-opacity-[26%] min-h-[356px] flex flex-col justify-between pt-6 ps-4 pe-[21px] pb-[25px]">
-            <p className="font-Inter font-normal text-lihgt-lback text-md italic leading-[150%]">
+          <div className=" max-w-[364px] w-full rounded-[12px] bg-sky-blue md:mt-[60px] border-[1px] border-blue border-opacity-[26%] min-h-[356px] flex flex-col justify-between pt-6 ps-4 pe-[21px] pb-[25px]">
+            <p className="font-Inter font-normal text-lihgt-lback sm:text-md text-xmd italic leading-[150%]">
               Patient Capital Management, a value investing firm, released its
               “Patient Capital Opportunity Equity Strategy” first quarter 2024
               investor letter. It featured stocks like{" "}
@@ -31,17 +31,21 @@ const Invest = () => {
               (NASDAQ:NVDA) in its Q1 2024 investor letter.
             </p>
             <Image
-              width={211}
-              height={32}
-              src="/assets/image/png/finance.png"
+              width={272}
+              height={20}
+              src="/assets/image/png/business.png"
             />
           </div>
-          <div className="col-span-4 max-w-[364px] w-full rounded-[12px] bg-sky-blue mt-[60px] border-[1px] border-blue border-opacity-[26%] min-h-[356px] flex flex-col justify-between pt-6 ps-4 pe-[21px] pb-[25px]">
-            <p className="font-Inter font-normal text-lihgt-lback text-lg italic leading-[150%]">
+          <div className=" max-w-[364px] w-full rounded-[12px] bg-sky-blue lg:mt-[60px] border-[1px] border-blue border-opacity-[26%] min-h-[356px] flex flex-col justify-between pt-6 ps-4 pe-[21px] pb-[25px]">
+            <p className="font-Inter font-normal text-lihgt-lback lg:text-lg text-md italic leading-[150%]">
               SoftBank will reportedly invest nearly $1 billion in AI push,
               tapping <span className="font-bold">Nvidia’s chips</span>
             </p>
-            <Image width={219} height={49} src="/assets/image/png/cnbc.png" />
+            <Image
+              width={272}
+              height={20}
+              src="/assets/image/png/business.png"
+            />
           </div>
         </div>
       </div>

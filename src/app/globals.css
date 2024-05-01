@@ -11,3 +11,47 @@
     background-size: cover;
   }
 }
+.slick-dots {
+  position: absolute;
+  bottom: -80px !important;
+  display: block;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  list-style-type: none;
+  li {
+    margin: 0 0.25rem;
+  }
+
+  button {
+    display: block;
+    width: 10px !important;
+    height: 10px !important;
+    padding: 0;
+    border: none;
+    border-radius: 100%;
+    background-color: #ffffff !important;
+    text-indent: -9999px;
+  }
+
+  li.slick-active button {
+    background-color: #ffffff !important;
+    width: 16px !important;
+    height: 16px !important;
+  }
+}
+@media (max-width: 768px) {
+  .slick-dots {
+    position: absolute;
+    bottom: -45px !important;
+    display: block;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    list-style-type: none;
+  }
+}

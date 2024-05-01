@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="bg-header-bg bg-cover header-bg">
       <Navbar />
-      <div className="container max-w-[1164px] mx-auto px-3 lg:pt-[83px] lg:pb-[101px] md:py-20 sm:py-16 py-12">
+      <div className="container max-w-[1164px] mx-auto px-3 xl:pt-[83px] xl:pb-[101px] md:py-20 sm:py-16 py-12">
         <div className="flex md:flex-row flex-col md:justify-between justify-center">
           <div className="flex flex-col md:pe-5 md:mx-0 mx-auto">
             <div className="mx-auto md:mx-0">
