@@ -22,7 +22,7 @@ const Authors = () => {
             >
               <div className="flex flex-col w-[208px]">
                 <div className="flex gap-2.5 items-center">
-                  <Image width={50} height={50} src={value.image} />
+                  <Image width={50} height={50} src={value.image} alt="author" />
                   <p className="font-Open_Sans font-bold text-md text-black">
                     {value.name}
                   </p>

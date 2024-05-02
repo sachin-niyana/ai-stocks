@@ -44,6 +44,7 @@ const Trending = () => {
                       width={558}
                       height={332}
                       src={value.image}
+                      alt="house"
                     />
                   </div>
                 </div>

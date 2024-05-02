@@ -20,6 +20,7 @@ const Invest = () => {
               width={272}
               height={20}
               src="/assets/image/png/business.png"
+              alt="business"
             />
           </div>
           <div className=" max-w-[364px] w-full rounded-[12px] cursor-pointer hover:border-blue duration-300 hover:shadow-investCard bg-sky-blue md:mt-[60px] border-[1px] border-blue border-opacity-[26%] min-h-[356px] flex flex-col justify-between pt-6 ps-4 pe-[21px] pb-[25px]">
@@ -34,6 +35,7 @@ const Invest = () => {
               width={272}
               height={20}
               src="/assets/image/png/finance.png"
+              alt="finance"
             />
           </div>
           <div className=" max-w-[364px] w-full rounded-[12px] cursor-pointer hover:border-blue duration-300 hover:shadow-investCard bg-sky-blue lg:mt-[60px] border-[1px] border-blue border-opacity-[26%] min-h-[356px] flex flex-col justify-between pt-6 ps-4 pe-[21px] pb-[25px]">
@@ -41,7 +43,12 @@ const Invest = () => {
               SoftBank will reportedly invest nearly $1 billion in AI push,
               tapping <span className="font-bold">Nvidia’s chips</span>
             </p>
-            <Image width={272} height={20} src="/assets/image/png/cnbc.png" />
+            <Image
+              width={272}
+              height={20}
+              src="/assets/image/png/cnbc.png"
+              alt="cnbc"
+            />
           </div>
         </div>
         <div className="flex sm:flex-row flex-col justify-center items-center gap-[22px] md:mt-[60px] sm:mt-10 mt-8">

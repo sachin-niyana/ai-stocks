@@ -9,6 +9,7 @@ const YCharts = () => {
         width={439}
         height={696}
         src="/assets/image/png/ycharts-shadow.png"
+        alt="ycharts-shadow"
       />
       <div className="container max-w-[1164px] mx-auto px-3 xl:pt-[191px] xl:pb-[180px] md:py-20 sm:py-16 py-12 ">
         <div className="flex lg:flex-row flex-col justify-center">
@@ -31,6 +32,7 @@ const YCharts = () => {
               width={631}
               height={344}
               src="/assets/image/png/ycharts.png"
+              alt="ycharts"
             />
           </div>
         </div>

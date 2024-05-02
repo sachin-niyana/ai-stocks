@@ -1,10 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { LeftCircle } from "./common/Icons";
 
 const Nasdaq = () => {
   return (
     <div className="bg-white relative">
+      <div className="absolute left-0 top-[-20%]">
+        <LeftCircle />
+      </div>
       <Image
         className="absolute start-0 lg:top-[10%]"
         width={338}
@@ -19,12 +23,14 @@ const Nasdaq = () => {
               width={219}
               height={94}
               src="/assets/image/png/fool.png"
+              alt="fool"
             />
             <Image
               className="shadow-nasdaqCard xl:ms-[49px]"
               width={425}
               height={414}
               src="/assets/image/png/nasdaq.png"
+              alt="nasdaq"
             />
             <div className="flex justify-center">
               <Image
@@ -32,6 +38,7 @@ const Nasdaq = () => {
                 width={219}
                 height={94}
                 src="/assets/image/png/fool.png"
+                alt="fool"
               />
             </div>
           </div>
