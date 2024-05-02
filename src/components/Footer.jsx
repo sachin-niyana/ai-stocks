@@ -22,7 +22,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="flex flex-col sm:mt-0 mt-10">
-            <p className="font-Inter font-semibold text-md text-white">
+            <p className="font-Inter sm:text-start text-center font-semibold text-md text-white">
               Follow Us on
             </p>
             <div className="flex justify-start gap-[15px] mt-2.5">

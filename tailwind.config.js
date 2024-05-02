@@ -54,6 +54,8 @@ module.exports = {
         nasdaqCard: "0px 15px 52.1px 0px #0000001F",
         trendingCard: "0px 38px 0px -9px #E8F1FD",
         house: "0px 9px 30.6px 0px #00000033",
+        backToTopShadow: "0px 0px 12px 0px #8b8b8b",
+        investCard: "0px 6px 16.9px 0px #3861C44D",
       },
     },
   },
