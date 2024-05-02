@@ -14,6 +14,7 @@ const Nasdaq = () => {
         width={338}
         height={619}
         src="/assets/image/png/nasdaq-shadow.png"
+        alt="nasdaq-shadow"
       />
       <div className="container max-w-[1164px] mx-auto px-3 xl:pt-[153px] xl:pb-[163px] md:py-20 sm:py-16 py-12 ">
         <div className="flex items-start lg:flex-row flex-col lg:justify-between justify-start">
