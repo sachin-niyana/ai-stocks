@@ -20,7 +20,7 @@ const MoneyControl = () => {
           Analysts continue to remain positive on{" "}
           <span className="font-bold">Nvidia stock.</span> Prior to the
           earnings, five large brokerages raised their target price on the
-          company's shares.
+          company&lsqu;s shares.
         </p>
         <div className="flex justify-center mt-[46px]">
           <button className="bg-btn-gradient hover:scale-95 duration-300 py-3 px-[30px] font-Inter font-bold text-sm rounded-[58px] text-white">
